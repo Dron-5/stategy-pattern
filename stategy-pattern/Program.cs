@@ -10,6 +10,7 @@ namespace stategy_pattern
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("fdf");
         }
     }
 }
