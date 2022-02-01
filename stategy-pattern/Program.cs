@@ -1,4 +1,5 @@
 ﻿using System;
+using ClassLibrary;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +11,20 @@ namespace stategy_pattern
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("fdf");
+            MallardDuck mallardDuck = new MallardDuck();
+            RedheadDuck redheadDuck = new RedheadDuck();
+
+
+            Duck[] ducks = new Duck[] { mallardDuck, redheadDuck };
+
+            foreach (var x in ducks)
+            {
+                Console.WriteLine(x.Display());
+                Console.WriteLine(x.Quack());
+                Console.WriteLine(x.Swim());
+                Console.WriteLine();
+            }
+            Console.ReadKey();
         }
     }
 }
