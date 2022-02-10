@@ -24,15 +24,8 @@ namespace stategy_pattern
             {
                 Console.WriteLine(duck.Display());
                 Console.WriteLine(duck.Swim());
-
-                if (duck is IQuackable)
-                {
-                    Console.WriteLine((duck as IQuackable).Quack());
-                }
-                if (duck is IFlyable)
-                {
-                    Console.WriteLine((duck as IFlyable).Fly());
-                }
+                Console.WriteLine(duck.Quack());
+                Console.WriteLine(duck.Fly());
             }
             Console.ReadKey();
         }
