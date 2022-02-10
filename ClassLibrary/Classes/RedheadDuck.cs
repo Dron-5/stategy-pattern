@@ -7,11 +7,15 @@ using ClassLibrary.Interfaces;
 
 namespace ClassLibrary
 {
-    public class RubberDuck : Duck, IQuackable
+    public class RedheadDuck : Duck, IFlyBehavior, IQuackBehavior
     {
         public override string Display()
         {
-            return "RubberDuck " + GetType();
+            return "RedheadDuck " + this.GetType();
+        }
+        public string Fly()
+        {
+            return "Fly " + this.GetType();
         }
         public string Quack()
         {
