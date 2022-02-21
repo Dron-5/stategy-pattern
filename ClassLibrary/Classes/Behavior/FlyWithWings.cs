@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using ClassLibrary.Interfaces;
 
-namespace ClassLibrary.Classes.Behaviors
+namespace ClassLibrary.Classes.Behavior
 {
     public class FlyWithWings : IFlyBehavior
     {
