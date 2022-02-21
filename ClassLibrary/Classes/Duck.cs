@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 using ClassLibrary.Interfaces;
 
 
+
 namespace ClassLibrary
 {
-    protected IFlyBehavior flyBehavoir;
-    protected IQuackBehavior quackBehavoir;
+
+    protected IFlyBehavior flyBehavior;
+    protected IQuackBehavior quackBehavior;
 
     public class Duck
     {
@@ -31,13 +33,13 @@ namespace ClassLibrary
         {
             return flyBehavior.Fly();
         }
-        public void SetQuckBehavior(IQuackBehavior.qBehavior)
+        public void SetQuackBehavior(IQuackBehavior qBehavior)
         {
             quackBehavior = qBehavior;
         }
-        public void SetFlyBehavoir(IFlyBehavior. fBehavior)
+        public void SetFlyBehavior(IFlyBehavior fBehavior)
         {
-            SetFlyBehavior = fBehavior;
+            flyBehavior = fBehavior;
         }
     }
 }

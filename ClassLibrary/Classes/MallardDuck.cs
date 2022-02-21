@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ClassLibrary.Classes.Behaviors;
+using ClassLibrary.Classes.Behavior;
 
-namespace ClassLibrary
+namespace ClassLibrary.Classes
 {
     public class MallardDuck : Duck
     {

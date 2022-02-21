@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ClassLibrary.Classes;
-using ClassLibrary.Classes.Behaviors;
+using ClassLibrary.Classes.Behavior;
 
 namespace ClassLibrary.Classes
 {

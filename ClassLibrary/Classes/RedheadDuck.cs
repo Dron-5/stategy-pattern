@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ClassLibrary.Interfaces;
-using ClassLibrary.Classes.Behaviors;
+using ClassLibrary.Classes.Behavior;
 
-namespace MyLibrary.Classes
+namespace ClassLibrary.Classes
 {
     public class RedheadDuck : Duck
     {
