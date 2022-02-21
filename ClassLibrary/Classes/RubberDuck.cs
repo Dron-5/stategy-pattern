@@ -4,18 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ClassLibrary.Interfaces;
+using ClassLibrary.Classes.Behaviors;
 
-namespace ClassLibrary
+namespace MyLibrary.Classes
 {
-    public class RubberDuck : Duck, IQuackBehavior
+    public class RubberDuck : Duck
     {
-        public override string Display()
+        public RubberDuck()
         {
-            return "RubberDuck " + GetType();
-        }
-        public string Quack()
-        {
-            return "Quack " + this.GetType();
+            flyBehavior = new FlyNoWay();
+            quackBehavior = new Squeak();
         }
     }
 }
