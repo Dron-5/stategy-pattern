@@ -41,6 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\Behavior\DQuack.cs" />
+    <Compile Include="Classes\Behavior\FlyNoWay.cs" />
+    <Compile Include="Classes\Behavior\FlyWithWings.cs" />
+    <Compile Include="Classes\Behavior\MuteQuack.cs" />
+    <Compile Include="Classes\Behavior\Squeak.cs" />
     <Compile Include="Classes\DecoyDuck.cs" />
     <Compile Include="Classes\Duck.cs" />
     <Compile Include="Interfaces\IFlyBehavior.cs" />
@@ -50,8 +55,6 @@
     <Compile Include="Classes\RedheadDuck.cs" />
     <Compile Include="Classes\RubberDuck.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Classes\Behavior\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

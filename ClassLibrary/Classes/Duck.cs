@@ -10,6 +10,7 @@ namespace ClassLibrary
 {
     protected IFlyBehavior flyBehavoir;
     protected IQuackBehavior quackBehavoir;
+
     public class Duck
     {
 
