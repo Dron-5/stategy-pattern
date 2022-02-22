@@ -10,11 +10,12 @@ using ClassLibrary.Interfaces;
 namespace ClassLibrary
 {
 
-    protected IFlyBehavior flyBehavior;
-    protected IQuackBehavior quackBehavior;
-
+  
     public class Duck
     {
+        protected IFlyBehavior flyBehavior;
+        protected IQuackBehavior quackBehavior;
+
 
         public string Swim()
         {
